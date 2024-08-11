@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:darkslategrey ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app-container {
+    background: rgba(255, 255, 255, 0.384);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: darkslategrey;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-button {
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .todo-button:hover {
+    background-color: rgb(79, 133, 133);
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    background-color: #d3c1e5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .todo-item button {
+    background-color: #c0392b;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-item button:hover {
+    background-color: #a93226;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    background-color:darkslategrey;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-button.active {
+    background-color:rgb(79, 133, 133);
+  }
+  
+  .nav-button:hover {
+    background-color: rgb(79, 133, 133);
+  }
+  
+  /* Login and Signup Pages */
+  .auth-container {
+    background-color: #f5f2fc;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-container button {
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: darkslategray;
+  }
+
+
+.main-content {
+    padding-top: 70px; 
+    padding-bottom: 50px; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  
